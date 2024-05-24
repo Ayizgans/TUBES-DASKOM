@@ -7,20 +7,20 @@ struct Siswa {
     char password[50];
     char nama[100];
     // Informasi lain yang relevan
-};
+}data_siswa;
 
 struct PaketBelajar {
     char jenjang[50];
     char guru[100];
     char mapel[100];
     // Informasi lain yang relevan
-};
+}paket;
 
 struct JadwalBelajar {
     char hari[20];
     char jam[20];
     // Informasi lain yang relevan
-};
+}jadwal;
 
 int admin ();
 int siswa ();
@@ -142,11 +142,11 @@ int admin_list ()
     int pilihan; 
 
     printf ("====LIST====\n");
-    printf ("1. data siswa mendaftar\n");
-    printf ("2. penambahan jenjang pendidikan\n");
-    printf ("3. penambahkan paket belajar guru\n");
-    printf ("4. penambahan jadwal belajar\n");
-    printf ("5. pemasukan gaji\n");
+    printf ("1. Lihat data siswa mendaftar\n");
+    printf ("2. Tambahkan jenjang pendidikan\n");
+    printf ("3. Tambahkan paket belajar guru\n");
+    printf ("4. Tambahkan jadwal belajar\n");
+    printf ("5. Hitung penghasilan admin dan pengajar\n");
     printf ("6. penghasilan admin\n");
     printf ("7. log out\n");
     printf ("masukkan pilihan anda: "); scanf ("%d", &pilihan);
@@ -182,32 +182,33 @@ int admin_list ()
     return 0;
 }
 
-int data_siswa_mendaftar ()
+void data_siswa_mendaftar ()
+{
+    
+    
+}
+
+void menambah_jenjang_pendidikan ()
 {
     return 0;
 }
 
-int menambah_jenjang_pendidikan ()
+void penambahkan_paket_belajar_guru ()
 {
     return 0;
 }
 
-int penambahkan_paket_belajar_guru ()
+void penambahan_jadwal_belajar ()
 {
     return 0;
 }
 
-int penambahan_jadwal_belajar ()
+void pemasukan_gaji ()
 {
     return 0;
 }
 
-int pemasukan_gaji ()
-{
-    return 0;
-}
-
-int penghasilan_admin ()
+void penghasilan_admin ()
 {
     return 0;
 }
